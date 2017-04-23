@@ -9,4 +9,7 @@ class PagesController < ApplicationController
   def calculator
   end
 
+  def colors
+  end
+
 end
