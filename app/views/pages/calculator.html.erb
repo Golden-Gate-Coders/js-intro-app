@@ -1,0 +1,14 @@
+<h1>Calculator</h1>
+
+<h2>Sum: 
+  <div id="sum">
+    0
+  </div>
+</h2>
+
+<% 10.times do |number| %>
+  <div class="box" onclick="addNumber(<%= number+1 %>)"><%= number+1 %></div>
+<% end %>
+
+<div class="box" onclick="resetTotal()">RESET</div>
+
